@@ -1,0 +1,15 @@
+<h1>About Us</h1>
+
+<!-- Rails helper: to make <%  %> use (er + enter) -->
+<%#  %>
+<%# time = Time.now %>
+<!-- Rails helper: to make <%=  %> use (pe + enter) -->
+<!-- <h2>The time is: <%#= time %></h2> -->
+<!-- DO NOT USE: <a href="/">home</a> -->
+
+<!--  shortcut for link_to: lt + enter -->
+<!--  <%#= link_to 'text we see on the page', prefix_path %> -->
+
+<%= link_to root_path, class: "btn btn-info" do %>
+  <i class="fa-solid fa-house"></i> Home
+<% end %>
